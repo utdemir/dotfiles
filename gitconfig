@@ -1,0 +1,22 @@
+[init]
+        defaultBranch = main
+
+[alias]
+        co = "checkout"
+        st = "status -sb"
+
+[diff]
+        external = difft
+
+[pull]
+        ff = "only"
+
+[user]
+        email = "me@utdemir.com"
+        name = "Utku Demir"
+
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
