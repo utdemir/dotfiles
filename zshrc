@@ -35,8 +35,8 @@ eval "$(direnv hook zsh)"
 
 # Aliases
 alias ..="cd .."
-alias ...="cd ..."
-alias ....="cd ...."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 function hr() {
     printf "%10s" '' | tr ' ' '\n'
     for _ in $(seq 1 3); do
