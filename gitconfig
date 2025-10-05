@@ -5,9 +5,6 @@
         co = "checkout"
         st = "status -sb"
 
-[diff]
-        external = difft
-
 [pull]
         ff = "only"
 
@@ -20,3 +17,11 @@
         smudge = git-lfs smudge -- %f
         process = git-lfs filter-process
         required = true
+[push]
+	autoSetupRemote = true
+[core]
+	excludesfile = /Users/utdemir/.gitignore
+	autocrlf = false
+	safecrlf = false
+[branch]
+	sort = committerdate
