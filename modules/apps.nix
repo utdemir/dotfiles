@@ -17,8 +17,6 @@
     ];
 
     brews = [
-      "coreutils"
-      "imagemagick"
       "awscli"
       "tfenv"
       "zplug"
@@ -26,19 +24,10 @@
       "kubernetes-cli"
       "pass"
       "pass-otp"
-      "git-lfs"
       "zoxide"
       "nvm"
-      "pango"
       "up"
-      "asciinema"
-      "tmux"
-      "eksctl"
-      "rustup"
-      "kakoune"
-      "pwgen"
       "helm"
-      "grep"
       "watch"
       "gh"
     ];

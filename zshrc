@@ -21,8 +21,6 @@ zplug load
 # Configuration #
 #################
 
-export SOWORK_LOCAL_ENV_NAME=utku
-
 # Add local ~/bin
 PATH="$HOME/bin:$PATH"
 

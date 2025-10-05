@@ -9,6 +9,8 @@
   system.primaryUser = username;
   nix.settings.trusted-users = [ username ];
 
+  environment.pathsToLink = [ "/share/zsh" ];
+
   users.users.${username} = {
     name = username;
     home = "/Users/${username}";
