@@ -7,6 +7,7 @@
 
   ids.gids.nixbld = 30000;
 
+  nixpkgs.config.allowUnfree = true;
   nix = {
     enable = true;
 

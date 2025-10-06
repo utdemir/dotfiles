@@ -6,30 +6,20 @@
     enable = true;
 
     onActivation = {
-      autoUpdate = false;
+      autoUpdate = true;
       # 'zap': uninstalls all formulae(and related files) not listed here.
       cleanup = "zap";
     };
 
     taps = [
-      "homebrew/services"
       "homebrew/cask-fonts"
     ];
 
     brews = [
-      "awscli"
       "tfenv"
-      "zplug"
       "starship"
       "kubernetes-cli"
-      "pass"
-      "pass-otp"
-      "zoxide"
       "nvm"
-      "up"
-      "helm"
-      "watch"
-      "gh"
     ];
 
     casks = [

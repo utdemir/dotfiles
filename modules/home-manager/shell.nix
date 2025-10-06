@@ -18,6 +18,14 @@
       theme = "avit";
       plugins = [ "git" "z" ];
     };
+
+    initContent = ''
+      export BREW_PREFIX=/opt/homebrew
+      export PATH="$BREW_PREFIX/bin:$BREW_PREFIX/sbin:$PATH"
+      
+      # nvm
+      source "$(brew --prefix nvm)/nvm.sh"
+    '';
   };
 
   programs.fzf = {
