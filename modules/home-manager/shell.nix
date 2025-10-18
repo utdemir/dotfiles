@@ -25,6 +25,9 @@
       
       # nvm
       source "$(brew --prefix nvm)/nvm.sh"
+
+      # direnv
+      eval "$(direnv hook zsh)"
     '';
   };
 

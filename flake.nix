@@ -17,9 +17,8 @@
   outputs = inputs @ {
     ...
   }: let
-    # TODO replace with your own username, system and hostname
     username = "utdemir";
-    system = "aarch64-darwin"; # aarch64-darwin or x86_64-darwin
+    system = "aarch64-darwin";
     hostname = "mosscap";
 
     specialArgs =
